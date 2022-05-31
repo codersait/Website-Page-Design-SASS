@@ -1,0 +1,16 @@
+@import './base/reset';
+
+@import './abstracts/mixin', './abstracts/variables';
+
+@import './components/footer', './components/nav';
+
+@import './pages/about', './pages/home', './pages/services';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import './components/responsive';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
